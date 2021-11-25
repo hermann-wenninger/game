@@ -1,0 +1,20 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "Litte game to learn something about the dom.\r Manipulation, animation, expectation.\r createing, removeing, adding -> classes, nodes, elements......",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermann-wenninger/game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hermann-wenninger/game/issues"
+  },
+  "homepage": "https://github.com/hermann-wenninger/game#readme"
+}
