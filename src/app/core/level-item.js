@@ -1,4 +1,4 @@
 class LevelItem {
-    type = levelItemType.Empty;
+    type = levelItemType.EMPTY;
 
 }
