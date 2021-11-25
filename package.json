@@ -4,7 +4,7 @@
   "description": "Litte game to learn something about the dom.\r Manipulation, animation, expectation.\r createing, removeing, adding -> classes, nodes, elements......",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel ./src/app/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/hermann-wenninger/game#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "1.12.4"
   }
 }
