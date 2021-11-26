@@ -1,0 +1,8 @@
+import { Level } from './core/level';
+import { LevelItem } from './core/level-item';
+window.addEventListener('DOMContentLoaded', () =>{
+const level = new Level();
+level.render();
+
+});
+
