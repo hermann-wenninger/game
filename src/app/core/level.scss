@@ -1,6 +1,6 @@
 .level {
 display: flex;
-background: url('../assets/game.png');
+background: url('../../assets/game.png');
 width: 650px;
 height: 640px;
 }
@@ -9,8 +9,8 @@ height: 640px;
     height: 50px;
 }
 .outer-wall {
-    background: url('../assets/outer-wall.jpg');
+    background: url('../../assets/outer-wall.jpg');
 }
 .hard-wall {
-    background: url('../assets/hard-wall.jpg');
+    background: url('../../assets/hard-wall.jpg');
 }

@@ -1,0 +1,19 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.html {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.root {
+    position:relative;
+}
+.body {
+    background: url('../assets/wallpaper.jpg');
+}
