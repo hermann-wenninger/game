@@ -12,3 +12,11 @@ export const direction = {
     LEFT:'left',
     RIGHT:'right',
 };
+
+
+export const keyEventToDirection = {
+    ArrowUp:'up', //direction.UP,
+    ArrowDown:'down', //direction.DOWN,
+    ArrowLeft:'left', //direction.LEFT,
+    ArrowRight:'right', //direction.RIGHT,
+}

@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/hermann-wenninger/game#readme",
   "devDependencies": {
-    "parcel-bundler": "1.12.4"
+    "parcel-bundler": "1.12.5"
   }
 }

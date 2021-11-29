@@ -1,6 +1,6 @@
 import { Player } from './player';
 import { Level } from './level';
-
+import { keyEventToDirection } from './constants';
 export class Game {
     #level = new Level();
     #player = new Player();
@@ -11,7 +11,8 @@ export class Game {
     }
     #addKeyListener(){
         document.addEventListener('keydown', (event) =>{
-          console.log(event);  
+          this.#player.move('right');  
+          console.log(event.key);  
         })
 
     }
