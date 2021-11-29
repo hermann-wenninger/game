@@ -4,7 +4,7 @@
   "description": "Litte game to learn something about the dom.\r Manipulation, animation, expectation.\r createing, removeing, adding -> classes, nodes, elements......",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./src/app/index.html"
+    "scripts": "parcel  ./src/app/index.html"
   },
   "repository": {
     "type": "git",

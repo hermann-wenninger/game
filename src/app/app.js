@@ -1,15 +1,16 @@
 import "./app.scss";
-import { Level } from "./core/level";
-import { Player } from "./core/player";
+import { Game } from "./core/game";
+
+const game = new Game();
+game.init();
 
 
-const level = new Level();
-level.render();
-
-const player = new Player();
-player.render();
-
+//const level = new Level();
+//level.render();
+//const player = new Player();
+//player.render();
 
 
+//import { Level } from "./core/level";
 //import { LevelItem } from './core/level-item';
-//import { levelItemType } from '.core/constants';-->
+//import { levelItemType } from '.core/constants';
