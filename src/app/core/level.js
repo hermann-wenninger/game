@@ -1,5 +1,5 @@
 import "./level.scss";
-import { levelItemType } from "./constants";
+import { direction, levelItemType } from "./constants";
 import { levelItem } from "./level-item";
 
 const LEVEL_WIDTH = 13;
@@ -50,7 +50,18 @@ export class Level {
 
   armBomb() {}
 
-  canMove() {}
+  canMove(desiredDirection, x, y) {
+    let cell = null;
+    switch(desiredDirection){
+      case direction.UP: { cell = this.#columns[x][y-1]; break}
+      case direction.DOWN: { cell = this.#columns[x][y+1]; break}
+      case direction.LEFT: { cell = this.#columns[x-1][y]; break}
+      case direction.RIGHT: { cell = this.#columns[x + 1][y]; break}
+
+    }
+
+    return cell.type === levelItemType.EMPTY;
+  }
 
   destroy() {}
 

@@ -6,7 +6,6 @@ export const levelItemType = {
 };
 
 export const direction = {
-
     UP: 'up',
     DOWN: 'down',
     LEFT:'left',
