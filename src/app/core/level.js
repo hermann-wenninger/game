@@ -53,9 +53,9 @@ export class Level {
   canMove(desiredDirection, x, y) {
     let cell = null;
     switch(desiredDirection){
-      case direction.UP: { cell = this.#columns[x][y-1]; break}
-      case direction.DOWN: { cell = this.#columns[x][y+1]; break}
-      case direction.LEFT: { cell = this.#columns[x-1][y]; break}
+      case direction.UP: { cell = this.#columns[x][y - 1]; break}
+      case direction.DOWN: { cell = this.#columns[x][y + 1]; break}
+      case direction.LEFT: { cell = this.#columns[x - 1][y]; break}
       case direction.RIGHT: { cell = this.#columns[x + 1][y]; break}
 
     }
